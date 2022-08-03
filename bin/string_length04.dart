@@ -14,5 +14,5 @@ String func(String s) {
 
 void main() {
   // write your code here
-  print(func('Uzbek'));
+  print(func('Uzbekistan'));
 }
