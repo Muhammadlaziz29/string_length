@@ -7,16 +7,9 @@
         True or False
      */
 
-String func(String a) {
-  int x = a.length;
-  String p = '';
-  if (x%2==0) {
-    p = 'True';
-  }
-  if (x%2!=0) {
-    p = 'False';
-  }
-  return p;
+bool func(String text) {
+  
+  return text.length % 2 == 0;
 }
 
 void main() {
