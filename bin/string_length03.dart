@@ -7,6 +7,19 @@
     Returns:
         True or False
 */
+String func(String a, String b) {
+  int x = a.length;
+  int y = b.length;
+  String h = '';
+  if (x==y) {
+    h = 'True';
+  }
+  if (x!=y) {
+    h = 'False';
+  }
+  return h;
+}
 void main() {
   // write your code here
+  print(func('Uzbekistan', 'Uzbek'));
 }
