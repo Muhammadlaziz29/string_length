@@ -21,5 +21,5 @@ String func(String a) {
 
 void main() {
   // write your code here
-  print(func('Ye'));
+  print(func('Yes'));
 }
