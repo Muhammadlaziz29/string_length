@@ -7,6 +7,12 @@
         bool: answer
 */
 
+String func(String s) {
+  String h = s.toUpperCase();
+  return h;
+}
+
 void main() {
   // write your code here
+  print(func('Uzbek'));
 }
