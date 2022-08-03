@@ -20,5 +20,5 @@ String func(String s1, String s2) {
 }
 void main() {
   // write your code here
-  print(func('Uzb', 'Uzbek'));
+  print(func('Uz', 'Uzbek'));
 }
