@@ -7,6 +7,19 @@
     Returns:
         str: answer
      */
+
+String func(String s1, String s2) {
+  int x = s1.length;
+  int y = s2.length;
+  if (x>y) {
+    return s1+s2;
+  }
+  else{
+    return s2;
+  }
+}
+
 void main() {
   // write your code here
+  print(func('Uzbekiston', 'Xalqi'));
 }
