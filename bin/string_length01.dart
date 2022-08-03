@@ -7,8 +7,7 @@
         length of string */
 
 int func(String text) {
-  int h = text.length;
-  return h;
+return text.length;
 }
 
 void main() {
